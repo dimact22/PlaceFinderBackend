@@ -3,7 +3,7 @@ import os
 
 
 mongo_uri = os.getenv(
-    "MONGO_URL", "mongodb+srv://dimashelichov228...")
+    "MONGO_URL", "...")
 print("MongoDB Verbindungs-URL:", mongo_uri)
 client = MongoClient(mongo_uri)
 
