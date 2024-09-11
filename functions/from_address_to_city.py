@@ -1,6 +1,6 @@
 import googlemaps
 
-gmaps = googlemaps.Client(key='AIzaSyD4kbpTHuPM7rJ2KEDJmQIYgtnIbOyWiC4')
+gmaps = googlemaps.Client(key='...')
 
 def get_city_from_address(address):
     geocode_result = gmaps.geocode(address, language='de')
