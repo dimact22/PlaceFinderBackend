@@ -1,6 +1,6 @@
 from geopy.geocoders import GoogleV3
 
-geolocator = GoogleV3(api_key="AIzaSyD4kbpTHuPM7rJ2KEDJmQIYgtnIbOyWiC4")
+geolocator = GoogleV3(api_key="...")
 
 
 def transform(address):
